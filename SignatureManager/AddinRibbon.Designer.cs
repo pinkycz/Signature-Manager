@@ -34,6 +34,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddinRibbon));
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
             this.but_settings = this.Factory.CreateRibbonButton();
@@ -51,13 +52,14 @@
             // group1
             // 
             this.group1.Items.Add(this.but_settings);
-            this.group1.Label = "Signature Manager";
+            this.group1.Label = "Firmador Digital";
             this.group1.Name = "group1";
             // 
             // but_settings
             // 
-            this.but_settings.Image = global::SignatureManager.Properties.Resources.settings;
-            this.but_settings.Label = "Settings";
+            this.but_settings.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.but_settings.Image = ((System.Drawing.Image)(resources.GetObject("but_settings.Image")));
+            this.but_settings.Label = "Activar Firma Correo";
             this.but_settings.Name = "but_settings";
             this.but_settings.ShowImage = true;
             this.but_settings.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.but_settings_Click);

@@ -22,3 +22,23 @@ c:\users\pc\documents\visual studio 2015\Projects\SignatureManager\SignatureMana
 c:\users\pc\documents\visual studio 2015\Projects\SignatureManager\SignatureManager\obj\Debug\SignatureManager.dll
 c:\users\pc\documents\visual studio 2015\Projects\SignatureManager\SignatureManager\obj\Debug\SignatureManager.pdb
 C:\Users\PC\documents\visual studio 2015\Projects\SignatureManager\SignatureManager\obj\Debug\SignatureManager.csprojResolveAssemblyReference.cache
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\SignatureManager.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\SignatureManager.pdb
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\SignatureManager.dll.manifest
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\SignatureManager.vsto
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\Microsoft.Office.Tools.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\Microsoft.Office.Tools.Outlook.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.csproj.AssemblyReference.cache
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.AddinRibbon.resources
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.Properties.Resources.resources
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.SettingsForm.resources
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.csproj.GenerateResource.cache
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.csproj.CoreCompileInputs.cache
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.csproj.CopyComplete
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.dll
+D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.pdb
