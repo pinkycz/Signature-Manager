@@ -16,3 +16,7 @@ How to use:
  - first mail shud ask for permisson to use the certificate 
  - done
 
+- based on the @pqhcker fork and utilising signing logic proposed by @nicowitemann in the initial
+release by @colosso
+- Translated to English
+- Icon and cosmetic changes
