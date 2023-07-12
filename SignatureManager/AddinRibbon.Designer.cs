@@ -45,21 +45,22 @@
             // tab1
             // 
             this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
+            this.tab1.ControlId.OfficeId = "TabOptions";
             this.tab1.Groups.Add(this.group1);
-            this.tab1.Label = "TabAddIns";
+            this.tab1.Label = "TabOptions";
             this.tab1.Name = "tab1";
             // 
             // group1
             // 
             this.group1.Items.Add(this.but_settings);
-            this.group1.Label = "Firmador Digital";
+            this.group1.Label = "Signature Manager";
             this.group1.Name = "group1";
             // 
             // but_settings
             // 
             this.but_settings.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
             this.but_settings.Image = ((System.Drawing.Image)(resources.GetObject("but_settings.Image")));
-            this.but_settings.Label = "Activar Firma Correo";
+            this.but_settings.Label = "Manage Auto-Signing Accounts";
             this.but_settings.Name = "but_settings";
             this.but_settings.ShowImage = true;
             this.but_settings.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.but_settings_Click);

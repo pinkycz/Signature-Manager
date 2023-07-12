@@ -42,3 +42,23 @@ D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.
 D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.csproj.CopyComplete
 D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.dll
 D:\Desarrollo Ale\Signature-Manager\SignatureManager\obj\Debug\SignatureManager.pdb
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\bin\Debug\Microsoft.Office.Tools.Outlook.dll
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\obj\Debug\SignatureManager.csproj.AssemblyReference.cache
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\obj\Debug\SignatureManager.AddinRibbon.resources
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\obj\Debug\SignatureManager.Properties.Resources.resources
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\obj\Debug\SignatureManager.SettingsForm.resources
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\obj\Debug\SignatureManager.csproj.GenerateResource.cache
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\obj\Debug\SignatureManager.csproj.CoreCompileInputs.cache
+C:\Users\jan.penkava\Source\Repos\Signature-Manager1.6\SignatureManager\obj\Debug\SignatureManager.csproj.CopyComplete
+C:\Users\jan.penkava\source\repos\Signature-Manager1.6\SignatureManager\bin\Debug\Signature Manager.dll
+C:\Users\jan.penkava\source\repos\Signature-Manager1.6\SignatureManager\bin\Debug\Signature Manager.pdb
+C:\Users\jan.penkava\source\repos\Signature-Manager1.6\SignatureManager\bin\Debug\Signature Manager.dll.manifest
+C:\Users\jan.penkava\source\repos\Signature-Manager1.6\SignatureManager\bin\Debug\Signature Manager.vsto
+C:\Users\jan.penkava\source\repos\Signature-Manager1.6\SignatureManager\obj\Debug\Signature Manager.dll
+C:\Users\jan.penkava\source\repos\Signature-Manager1.6\SignatureManager\obj\Debug\Signature Manager.pdb
