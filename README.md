@@ -15,7 +15,7 @@ How to use:
  - go to trust center and untick "add digital signature to outgoing messages"
  - first mail shud ask for permisson to use the certificate 
  - done
-
+// pinkycz 20230712 +
 - based on the @pqhcker fork and utilising signing logic proposed by @nicowitemann in the initial
 release by @colosso
 - Translated to English
