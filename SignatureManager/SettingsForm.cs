@@ -27,7 +27,7 @@ namespace SignatureManager
                 Registry.CurrentUser.OpenSubKey("SignatureManager", RegistryKeyPermissionCheck.ReadWriteSubTree).SetValue(item, "1");
             }
 
-            MessageBox.Show("Configuracion guardada");
+            MessageBox.Show("Settings Saved");
             this.Close();
         }
 
@@ -37,7 +37,7 @@ namespace SignatureManager
             {
                 Registry.CurrentUser.OpenSubKey("SignatureManager", RegistryKeyPermissionCheck.ReadWriteSubTree).DeleteValue(account);
             }
-            MessageBox.Show("Cuentas eliminadas");
+            MessageBox.Show("Accounts cleared");
             this.Close();
         }
 
@@ -81,6 +81,9 @@ namespace SignatureManager
 
         }
 
-        
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

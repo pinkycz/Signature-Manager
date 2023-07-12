@@ -32,19 +32,51 @@ namespace SignatureManager
         }
 
 
+        /*   void OutlookApplication_ItemSend(object Item, ref bool Cancel)
+           {
+               // loop registry 
+               foreach (string value in Registry.CurrentUser.OpenSubKey("SignatureManager").GetValueNames())
+               {
+                   // check if current sender is set in registry to send signature
+                   if (OutlookMailItem.SendUsingAccount.DisplayName == value)
+                   {
+                       // sign mail
+                       OutlookInspector.CommandBars.ExecuteMso("DigitallySignMessage");
+                   }
+               }
+
+           }
+           */
+
         void OutlookApplication_ItemSend(object Item, ref bool Cancel)
         {
             // loop registry 
             foreach (string value in Registry.CurrentUser.OpenSubKey("SignatureManager").GetValueNames())
             {
                 // check if current sender is set in registry to send signature
-                if (OutlookMailItem.SendUsingAccount.DisplayName == value)
+                if (((Outlook.MailItem)Item).SendUsingAccount.DisplayName == value)
                 {
-                    // sign mail
-                    OutlookInspector.CommandBars.ExecuteMso("DigitallySignMessage");
+                    string PR_SECURITY_FLAGS = "http://schemas.microsoft.com/mapi/proptag/0x6E010003";
+                    int currentSecurityFlags = ((Outlook.MailItem)Item).PropertyAccessor.GetProperty(PR_SECURITY_FLAGS);
+
+                    int updatedSecurityFlags = currentSecurityFlags;
+
+                    updatedSecurityFlags |= 1 << 0x1; // set bit 2 ON - forces signing
+
+                    ((Outlook.MailItem)Item).PropertyAccessor.SetProperty(PR_SECURITY_FLAGS, updatedSecurityFlags);
+                }
+                else
+                {
+                    string PR_SECURITY_FLAGS = "http://schemas.microsoft.com/mapi/proptag/0x6E010003";
+                    int currentSecurityFlags = ((Outlook.MailItem)Item).PropertyAccessor.GetProperty(PR_SECURITY_FLAGS);
+
+                    int updatedSecurityFlags = currentSecurityFlags;
+
+                    updatedSecurityFlags &= ~(1 << 0x1); // set bit 2 OFF - forces no signing
+
+                    ((Outlook.MailItem)Item).PropertyAccessor.SetProperty(PR_SECURITY_FLAGS, updatedSecurityFlags);
                 }
             }
-
         }
 
         void OutlookInspectors_NewInspector(Microsoft.Office.Interop.Outlook.Inspector Inspector)
